@@ -1,7 +1,57 @@
 #container{
-    border: 2px solid gray;
+    box-shadow: 0 0 1px rgba(0,0,0,1);
     width: 50%;
-    margin: 0 auto;
+    margin: 100px auto;
+    background-color: #f7f7f7f7;
+}
+
+h1{
+    background-color: #2980b9;
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+body{
+    font-family: Roboto;
+    background: #1D4350;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+li{
+    background: white;
+    height: 40PX;
+    line-height: 40px;
+}
+
+input{
+    font-size: 18px;
+    background-color: #f7f7f7f7;
+    width: 100%;
+    color: #C7C9E7f9;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+    border: none;
+}
+
+input:focus{
+    background: white;
+    outline: 2px solid hsl(204, 98%, 49%);
+}
+
+li:nth-child(2n){
+    background: #f7f7f7f7;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .completed{
